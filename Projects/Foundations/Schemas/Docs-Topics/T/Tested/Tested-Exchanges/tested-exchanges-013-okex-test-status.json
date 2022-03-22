@@ -1,7 +1,7 @@
 {
     "topic": "Tested Exchanges",
-    "pageNumber": 16,
-    "type": "Latoken Test Status",
+    "pageNumber": 13,
+    "type": "OKEX Test Status",
     "definition": {
         "text": "Passed Live Trading Test but limited Historical Data ",
         "updated": 1636810465259
@@ -38,9 +38,22 @@
         },
         {
             "style": "Json",
-            "text": "{\n    \"codeName\": \"latoken\",\n    \"API\": [\n        {\n            \"method\": \"fetchTrades\",\n            \"fetchType\": \"by Id\",\n            \"fetchTradesMethod\": \"publicGetHistoricalTrades\",\n            \"firstId\": \"f\"\n        }\n    ]\n}",
+            "text": "{\n    \"codeName\": \"okex\",\n    \"API\": [\n        {\n            \"method\": \"fetchTrades\",\n            \"fetchType\": \"by Id\",\n            \"fetchTradesMethod\": \"publicGetHistoricalTrades\",\n            \"firstId\": \"f\"\n        }\n    ]\n}",
             "updated": 1636811208143
+        },
+        {
+            "style": "Title",
+            "text": "User Exchange Account Configuration",
+            "updated": 1636811329265
+        },
+        {
+            "style": "Title",
+            "text": ""
+        },
+        {
+            "style": "Note",
+            "text": "That your PASSPHRASE is your password in the user exchanger account configuration",
+            "updated": 1636811457247
         }
-       
     ]
 }
